@@ -24,6 +24,15 @@ Ensure you update the following items to customize the project:
   - All `VITE_*` environment variables required by your application.
   - Update them in `.github/workflows/deploy.yml` so they are also built into the deployed site
 
+```yaml
+- name: Build site
+  env:
+    VITE_AWS_REGION: ${{ secrets.VITE_AWS_REGION }}
+    ...
+    VITE_APP_URL: ${{ secrets.VITE_APP_URL }}
+    VITE_YOUR_ENV_VARIABLE: ${{ secrets.YOUR_ENV_VARIABLE }}
+```
+
 ## GitHub Workflows
 
 This template includes two GitHub Actions workflows:
