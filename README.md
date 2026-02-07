@@ -1,4 +1,5 @@
-![Blueprint](/src/assets/logo_banner_negative.png)
+![Blueprint](https://sitblueprint.com/assets/logos/logo_banner_negative.webp#gh-dark-mode-only)
+![Blueprint](https://sitblueprint.com/assets/logos/logo_banner.webp#gh-light-mode-only)
 
 # Blueprint React + Vite Template
 
