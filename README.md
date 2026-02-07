@@ -1,4 +1,6 @@
-# React + TypeScript + Vite
+![Blueprint](/src/assets/logo_banner_negative.png)
+
+# Blueprint React + Vite Template
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
