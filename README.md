@@ -48,3 +48,14 @@ This template includes two GitHub Actions workflows:
   - Authenticating with AWS using OIDC.
   - Synchronizing the build output (`dist/`) to an S3 bucket.
   - Invalidating the CloudFront distribution to ensure the latest version is served.
+
+## Scripts
+
+Available `package.json` scripts:
+
+- `npm run dev`: Start the Vite dev server with HMR.
+- `npm run build`: Type-check with TypeScript project references and build for production.
+- `npm run lint`: Run ESLint across the codebase.
+- `npm run format:check`: Check formatting with Prettier without writing changes.
+- `npm run format:fix`: Format files with Prettier and write changes.
+- `npm run preview`: Preview the production build locally.
