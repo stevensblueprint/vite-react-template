@@ -1,5 +1,13 @@
-![Blueprint](https://sitblueprint.com/assets/logos/logo_banner_negative.webp#gh-dark-mode-only)
-![Blueprint](https://sitblueprint.com/assets/logos/logo_banner.webp#gh-light-mode-only)
+<picture>
+  <source
+    media="(prefers-color-scheme: dark)"
+    srcset="https://sitblueprint.com/assets/logos/logo_banner_negative.webp"
+  />
+  <img
+    alt="Blueprint"
+    src="https://sitblueprint.com/assets/logos/logo_banner.webp"
+  />
+</picture>
 
 # Blueprint React + Vite Template
 
